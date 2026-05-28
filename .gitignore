@@ -1,0 +1,93 @@
+# Standard jak.ma / Sami repo .gitignore
+# Universal coverage — safe to apply to any repo (patterns that don't match
+# any files are simply inert).
+# Generated 2026-05-29 — see compliance/secret-scanning.md
+
+# ─── Environment variables (HIGHEST PRIORITY) ──────────────────────────────
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# ─── Credentials & keys ────────────────────────────────────────────────────
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+secret.json
+serviceAccountKey.json
+firebase-adminsdk-*.json
+google-credentials.json
+HANDOFF_LOCAL_SECRETS.md
+.handoff_local*
+
+# ─── Node ──────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ─── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# ─── Build outputs ─────────────────────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+target/
+
+# ─── IDE / OS ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Deploy platforms ──────────────────────────────────────────────────────
+.vercel
+.netlify
+.firebase
+.aws-sam
+.amplify
+
+# ─── Logs ──────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Coverage / artifacts ──────────────────────────────────────────────────
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# ─── ML artifacts (jak.ma specific — safe inert elsewhere) ─────────────────
+*.gguf
+*.safetensors
+*.bin
+models/
+data/external/
+data/finetune/raw/
+data/finetune/processed/
