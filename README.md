@@ -1,5 +1,7 @@
 # Sovereign School OS - Production Archive
 
+[![AI + EdTech](https://img.shields.io/badge/AI%20%2B-EdTech-8A2BE2)](#)
+
 > AI-native operating system for K-12 schools. Full production archive of the Tsinghua AIID Yearly Competition submission (NetDragon partner). Browser-only, localStorage as the database, FERPA-compliant by construction.
 
 ![status](https://img.shields.io/badge/status-shipped-2ea44f) ![stack](https://img.shields.io/badge/stack-React%2019%20%2B%20TS%20%2B%20Vite-blue) ![data](https://img.shields.io/badge/data-localStorage--only-orange) ![winner](https://img.shields.io/badge/winner-Tsinghua%20AIID%202025-gold) ![partner](https://img.shields.io/badge/partner-NetDragon-purple)
