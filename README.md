@@ -118,8 +118,8 @@ interactiveParser, parser, pdfParser, video.
 
 ## Repo siblings
 
-- [sovereign-school-os](https://github.com/Samielakkad/sovereign-school-os) - polished, browseable, file-by-file source view of the same product (no `.rar`, no `credentials.md`)
-- [jak-ma-eval-suite](https://github.com/Samielakkad/jak-ma-eval-suite) - the verifier-gated retrieval pattern used here, ported to a different domain (Moroccan service marketplace)
+- [sovereign-school-os](https://github.com/Samielakkad/ai-edtech-sovereign-school-os) - polished, browseable, file-by-file source view of the same product (no `.rar`, no `credentials.md`)
+- [jak-ma-eval-suite](https://github.com/Samielakkad/ai-llm-evaluation-jakma) - the verifier-gated retrieval pattern used here, ported to a different domain (Moroccan service marketplace)
 
 ---
 
